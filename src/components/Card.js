@@ -1,9 +1,13 @@
-function Card(props){
+import LeftCard from './LeftCard';
+
+function Card(props) {
     return (
-        <div>
+        <div className="content">
             <div className='card'>
-                <img src="images/image2.jpg"/>
+                <img src="images/image2.jpg" />
             </div>
+
+            <LeftCard />
         </div>
     );
 }
