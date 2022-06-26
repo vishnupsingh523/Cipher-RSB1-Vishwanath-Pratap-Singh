@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import LeftCard from './LeftCard';
 
 function Card(props) {
